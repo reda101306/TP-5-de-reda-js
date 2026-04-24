@@ -1,0 +1,13 @@
+function calculer() {
+    let a = parseFloat(prompt("Entrez le premier nombre :"));
+    let b = parseFloat(prompt("Entrez le deuxième nombre :"));
+    let somme = a + b;
+    let difference = a - b;
+    let produit = a * b;
+    let quotient = a / b;
+    document.getElementById("resultat").innerHTML =
+        "Somme : " + somme + "<br>" +
+        "Différence : " + difference + "<br>" +
+        "Produit : " + produit + "<br>" +
+        "Quotient : " + quotient;
+}
