@@ -1,0 +1,16 @@
+let nombre = Math.floor(Math.random() * 10) + 1;
+let tentative = 0;
+let proposition;
+do {
+        proposition = parseInt(prompt("Devinez un nombre entre 1 et 10 :"));
+        tentative++;
+
+        if (proposition > nombre) {
+            alert("Trop grand !");
+        } else if (proposition < nombre) {
+            alert("Trop petit !");
+        } else {
+            alert("Bravo ! Trouvé en " + tentative + " tentatives");
+            console.log("score est:",tentative)
+        }
+ } while (proposition !== nombre);
