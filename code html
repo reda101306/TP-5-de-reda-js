@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculatrice de reda</title>
+</head>
+<body>
+<h1>Calculatrice</h1>
+<button onclick="calculer()">Lancer le calcul</button>
+<p id="resultat"></p>
+<script src="reda.js"></script>
+</body>
+</html>
