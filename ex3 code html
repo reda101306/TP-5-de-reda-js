@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz HTML</title>
+</head>
+<body>
+<h2>Quiz HTML</h2>
+<button onclick="lancerQuiz()">Démarrer le Quiz</button>
+<script language="javascript" src="reda.js"></script>
+</body>
+</html
