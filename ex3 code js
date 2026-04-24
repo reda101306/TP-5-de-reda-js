@@ -1,0 +1,30 @@
+function lancerQuiz() {
+    let QUESTIONS = [
+        ["Que signifie HTML ?", "HyperText Markup Language"],
+        ["Quelle balise pour un titre principal ?", "h1"],
+        ["Quelle balise pour un lien ?", "a"],
+        ["Quelle balise pour une image ?", "img"],
+        ["Quelle balise pour un paragraphe ?", "p"],
+        ["Attribut pour lien URL ?", "href"],
+        ["Balise pour liste non ordonnée ?", "ul"],
+        ["Balise pour élément de liste ?", "li"],
+        ["Balise pour saut de ligne ?", "br"],
+        ["Balise pour formulaire ?", "form"]
+    ];
+    let score = 0;
+    for (let i = 0; i < QUESTIONS.length; i++) {
+
+        let question = QUESTIONS[i][0];
+        let reponseCorrecte = QUESTIONS[i][1];
+
+        let reponseUser = prompt(question);
+
+        if (reponseUser !== null && reponseUser.toLowerCase() === reponseCorrecte.toLowerCase()) {
+            alert("Réponse juste !");
+            score++;
+        } else {
+            alert("Réponse fausse !");
+        }
+    }
+    alert("Score final : " + score + " / " + QUESTIONS.length);
+}
