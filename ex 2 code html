@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exercice 2</title>
+</head>
+<body>
+<h2>Jeu deviner le nombre</h2>
+<script language="javascript" src="reda.js"></script>
+</body>
+</html>
